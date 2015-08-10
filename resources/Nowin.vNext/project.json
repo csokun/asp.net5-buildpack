@@ -5,9 +5,6 @@
         "Microsoft.AspNet.Http" : "1.0.0-*",
         "Nowin" : "0.11.0"
     },
-    "commands": {
-        "web": "Microsoft.AspNet.Hosting --server Owin.Nowin.HelloWorld"
-    },
     "frameworks" : {
         "dnx451" : {
             "dependencies": {
