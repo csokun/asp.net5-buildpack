@@ -18,7 +18,7 @@ module AspNet5Buildpack
   class MonoInstaller
 
     # really 4.0.1.44 fix release - needed for mozroots error
-    DEFAULT_VERSION = '4.0.1'
+    DEFAULT_VERSION = '4.0.3'
 
     def initialize(app_dir, shell)
       @app_dir = app_dir
